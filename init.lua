@@ -543,7 +543,7 @@ minetest.register_node("mtcandy:white_choco", {
 minetest.register_craft({
 	output = "mtcandy:milk_choco 2",
 	recipe = {
-		{"mtfoods:chocolate", "mtfoods:chocolate", ""},
+		{"farming:chocolate_dark", "farming:chocolate_dark", ""},
 		{"mtcandy:caramel", "mtcandy:caramel", ""},
 		{"", "", ""},
 	}
