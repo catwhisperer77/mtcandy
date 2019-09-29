@@ -45,6 +45,7 @@ minetest.register_craft({
 	type = "cooking",
 	output = "mtcandy:caramel",
 	recipe = "mtcandy:sugar_block",
+	cooktime = 10
 })
 
 
