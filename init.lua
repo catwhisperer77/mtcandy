@@ -552,7 +552,7 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "mtcandy:white_choco 2",
 	recipe = {
-		{"mtfoods:cream", "dye:white", ""},
+		{"cucina_vegana:soy_milk", "dye:white", ""},
 		{"mtcandy:milk_choco", "mtcandy:milk_choco", ""},
 		{"", "", ""},
 	}
