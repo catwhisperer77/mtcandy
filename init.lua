@@ -19,9 +19,9 @@ minetest.register_node("mtcandy:sugar_block", {
 minetest.register_craft({
 	output = "mtcandy:sugar_block",
 	recipe = {
-		{"mtfoods:sugar" ,"mtfoods:sugar" ,"mtfoods:sugar"}, 
-		{"mtfoods:sugar" ,"mtfoods:sugar" ,"mtfoods:sugar"}, 
-		{"mtfoods:sugar" ,"mtfoods:sugar" ,"mtfoods:sugar"}
+		{"group:food_sugar" ,"group:food_sugar" ,"group:food_sugar"}, 
+		{"group:food_sugar" ,"group:food_sugar" ,"group:food_sugar"}, 
+		{"group:food_sugar" ,"group:food_sugar" ,"group:food_sugar"}
 	}
 })
 
